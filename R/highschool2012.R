@@ -1,0 +1,58 @@
+#' Contacts between high school students. 
+#' 
+#' This dataset contains the sequence of 19774 face-to-face contacts between 
+#' high school students and their teachers in Marseilles, France during 7 days 
+#' in November 2012 (from a Monday to the Tuesday of the following week). The 
+#' data collection involved 180 students of five different classes. Wearable 
+#' proximity sensors recorded with a 20-second time interval every face-to-face 
+#' contact between students that was active in the last 20 second window. A 
+#' contact between two individuals is defined as the set of successive 
+#' time-windows of 20 seconds during which the individuals are detected in 
+#' contact.In the 'edgelist' element, these records are collected in a 
+#' relational event sequence with for every contact between a pair of students 
+#' the time of onset and its duration. Time is measured in seconds and 
+#' expressed in UNIX ctime. The events in the sequence are undirected. Multiple 
+#' events can occur at the same time point and the students can be in contact 
+#' with multiple other students at the same time. Information on the gender and 
+#' class of the students is available in the 'attributes' element. 
+#' 
+#' @docType data
+#' 
+#' @usage data(highschool2012)
+#' 
+#' @format List with elements 'edgelist' and 'attributes'. 
+#' 
+#' @section edgelist:
+#' Dataframe with 19774 rows and 4 columns that contains the relational event 
+#' sequence with face-to-face contacts between the students. 
+#' \describe{
+#'  \item{time}{Numeric value indicating the timestamp for the onset of the 
+#' contact expressed in UNIX ctime.}
+#'  \item{actor1}{Integer value with the ID of the first actor in the contact.}
+#'  \item{actor2}{Integer value with the ID of the second actor in the contact.}
+#'  \item{duration}{Numeric value indicating the duration of the contact in 
+#' seconds.}
+#' }
+#' 
+#' @section attributes:
+#' Dataframe with 180 rows and 4 columns describing the gender and class of the 
+#' students. 
+#' \describe{
+#'  \item{id}{Integer value with the ID of the student.}
+#'  \item{time}{Change time of the attributes. Since the attributes are 
+#' constant over the course of the study period, this value is equal to 0 for 
+#' all entries.}
+#'  \item{class}{String with the class of the student ('MP' stands for classes 
+#' that focus on mathematics and physics, 'PC' stands for classes that focus on 
+#' physics and chemistry and 'PSI' stands for classes that focus on engineering 
+#' studies).}
+#'  \item{gender}{String with the gender of the student ('M' = male, 'F' = 
+#' female).}
+#' }
+#' 
+#' @seealso \link{highschool2011}
+#' 
+#' @source \url{http://www.sociopatterns.org/datasets/high-school-dynamic-contact-networks/}
+#' 
+#' @references Fournet & Barrat (2014) PloS one 9(9) e107878 \url{https://doi.org/10.1371/journal.pone.0107878}
+"highschool2012"

@@ -1,0 +1,55 @@
+#' Contacts between patients and health-care workers. 
+#' 
+#' This dataset contains the sequence of 14037 face-to-face contacts between 
+#' patients, patients and health-care workers and between health-care workers 
+#' in a hospital ward in Lyon, France, from Monday, December 6, 2010 at 1:00 pm 
+#' to Friday, December 10, 2010 at 2:00 pm. The data collection involved 29 
+#' patients and 46 health-care workers. Wearable proximity sensors recorded 
+#' with a 20-second time interval every face-to-face contact between 
+#' individuals that was active in the last 20 second window. A contact between 
+#' two individuals is defined as the set of successive time-windows of 20 
+#' seconds during which the individuals are detected in contact. In the 
+#' 'edgelist' element, these records are collected in a relational event 
+#' sequence with for every contact between a pair of individuals the time of 
+#' onset and its duration. Time of the events is expressed in seconds since 
+#' onset of the study period. The events in the sequence are undirected. 
+#' Multiple events can occur at the same time point and the individuals can be 
+#' in contact with multiple other individuals at the same time. Information on 
+#' the statuses of the individuals is available in the 'attributes' element. 
+#' 
+#' @docType data
+#' 
+#' @usage data(hospitalward)
+#' 
+#' @format List with elements 'edgelist' and 'attributes'. 
+#' 
+#' @section edgelist:
+#' Dataframe with 14037 rows and 4 columns that contains the relational event 
+#' sequence with face-to-face contacts between the individuals. 
+#' \describe{
+#'  \item{time}{Numeric value indicating the timestamp for the onset of the 
+#' contact expressed in seconds since onset of the study period (Monday, 
+#' December 6, 2010 at 1:00 pm).}
+#'  \item{actor1}{Integer value with the ID of the first actor in the contact.}
+#'  \item{actor2}{Integer value with the ID of the second actor in the contact.}
+#'  \item{duration}{Numeric value indicating the duration of the contact in 
+#' seconds.}
+#' }
+#' 
+#' @section attributes:
+#' Dataframe with 75 rows and 3 columns describing the status of the 
+#' individuals.
+#' \describe{
+#'  \item{id}{Integer value with the ID of the individual.}
+#'  \item{time}{Change time of the attributes. Since the attributes are 
+#' constant over the course of the study period, this value is equal to 0 for 
+#' all entries.}
+#'  \item{status}{String with the status of the individual ('NUR' = paramedical 
+#' staff, i.e., nurses and nurses' aides; 'PAT' = patient, 'MED' = medical 
+#' doctor; 'ADM' = administrative staff).}
+#' }
+#' 
+#' @source \url{http://www.sociopatterns.org/datasets/hospital-ward-dynamic-contact-network/}
+#' 
+#' @references Vanhems et al. (2013) PloS one 8(9) e73970 \url{https://doi.org/10.1371/journal.pone.0073970}
+"hospitalward"
