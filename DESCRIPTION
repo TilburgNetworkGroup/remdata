@@ -52,8 +52,6 @@ Encoding: UTF-8
 LazyData: true
 Depends: 
     R (>= 2.10)
-RoxygenNote: 7.1.1.9001
+RoxygenNote: 7.1.2
 URL: https://github.com/TilburgNetworkGroup/remdata
 BugReports: https://github.com/TilburgNetworkGroup/remdata/issues
-
-
