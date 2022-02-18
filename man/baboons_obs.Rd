@@ -5,7 +5,19 @@
 \alias{baboons_obs}
 \title{Baboon's interactions.}
 \format{
-List with elements 'edgelist' and 'actors'.
+Dataframe with 5377 rows and 7 columns.
+\describe{
+ \item{time}{POSIXct value with the time stamps of the onset of the events.}
+ \item{actor1}{Factor with the names of the sender of the events.}
+ \item{actor2}{Factor with the names of the recipient of the events.}
+ \item{behavior}{Factor with the behaviors of the baboons.}
+ \item{category}{Factor with the classifications of the behaviors.}
+ \item{duration}{Numeric value indicating the duration of the events in
+seconds. The duration of events that lasted longer than 300 seconds (five
+minutes) were not recorded (i.e., they were recorded as lasting 300 seconds
+but may have lasted longer).}
+ \item{point}{Factor that indicates whether the event is a POINT event (YES) or a STATE event (NO).}
+}
 }
 \source{
 \url{http://www.sociopatterns.org/datasets/baboons-interactions/}
@@ -14,38 +26,15 @@ List with elements 'edgelist' and 'actors'.
 data(baboons_obs)
 }
 \description{
-This dataset contains the sequence of 3194 interactions between 20 Guinea
+This dataset contains the sequence of 5377 interactions between 20 Guinea
 baboons living in an enclosure of a Primate Center in France. The 'edgelist'
 element contains all directed interactions between pairs of baboons
 registered by an observer between June 13th 2019 and July 10th 2019.
 Moreover, the type of behavior and its duration is recorded. A distinction
 is made between 'POINT' events (without duration) and 'STATE' events (with
-duration > 0).
+duration > 0). Note that the edgelist contains event without a recipient
+and events directed towards the "self".
 }
-\section{edgelist}{
-
-Dataframe with 3194 rows and 7 columns that contains the relational event
-sequence with directed interactions between pairs of baboons and additional
-information on the events.
-\describe{
- \item{time}{POSIXct value with the time stamp of the onset of the event.}
- \item{actor1}{String with the name of the sender of the event.}
- \item{actor2}{String with the name of the recipient of the event.}
- \item{behavior}{String with the behavior of the baboons.}
- \item{category}{String with the classification of the behavior.}
- \item{duration}{Numeric value indicating the duration of the event in
-seconds. The duration of events that lasted longer than 300 seconds (five
-minutes) were not recorded (i.e., they were recorded as lasting 300 seconds
-but may have lasted longer).}
- \item{point}{String that indicates whether the event is a POINT event (YES) or a STATE event (NO).}
-}
-}
-
-\section{actors}{
-
-Vector with the names of the 20 baboons that were observed.
-}
-
 \references{
 Geladi et al. (2020) Proc. R. Soc. A. 476:20190737
 \url{https://doi.org/10.1098/rspa.2019.0737}
