@@ -1,9 +1,14 @@
 Package: remdata
 Type: Package
-Title: Collection of relational event data sequences, datasets of timestamped logitudinal networks 
+Title: A collection of empirical and simulated relational event data sequences
 Version: 0.2.0
 Authors@R: 
     c(
+        person(
+            given = "Joris",
+            family = "Mulder",
+            role = "ctb",
+            email = "j.mulder3@tilburguniversity.edu"),
         person(
             given = "Diana",
             family = "Karimova",
@@ -37,21 +42,17 @@ Authors@R:
         person(
             given = "Roger",
             family = "Leenders",
-            role = "ctb",
-            email = "r.t.a.j.leenders@tilburguniversity.edu"),
-        person(
-            given = "Joris",
-            family = "Mulder",
-            role = "ctb",
-            email = "j.mulder3@tilburguniversity.edu")
+            role = "aut",
+            email = "r.t.a.j.leenders@tilburguniversity.edu")
     )
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: This package is the collection of datasets in the format of relational events. Each dataset consists of an edgelist - the sequence events representing the link sent from one actor to another at a particular timepoint; and a dataframe describing the actors and their attributes if present. 
-License: What license is it under?
+Maintainer: Joris Mulder <j.mulder3@tilburguniversity.edu>
+Description: Empirical and simulated data for relational event analyses. Each dataset consists of an edgelist - the sequence events representing the link sent from one actor to another at a particular timepoint; and a dataframe describing the actors and their attributes if present. 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Depends: 
-    R (>= 2.10)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.3.3
 URL: https://github.com/TilburgNetworkGroup/remdata
 BugReports: https://github.com/TilburgNetworkGroup/remdata/issues
+Depends: 
+    R (>= 4.0.0)
+LazyDataCompression: xz
