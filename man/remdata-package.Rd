@@ -4,34 +4,22 @@
 \name{remdata-package}
 \alias{remdata}
 \alias{remdata-package}
-\title{remdata: A collection of empirical and simulated relational event data sequences}
+\title{remdata: A Collection of Empirical and Simulated Relational Event Data Sequences}
 \description{
-Empirical and simulated data for relational event analyses. Each dataset consists of an edgelist - the sequence events representing the link sent from one actor to another at a particular timepoint; and a dataframe describing the actors and their attributes if present.
-}
-\seealso{
-Useful links:
-\itemize{
-  \item \url{https://github.com/TilburgNetworkGroup/remdata}
-  \item Report bugs at \url{https://github.com/TilburgNetworkGroup/remdata/issues}
-}
-
+Description: Empirical and simulated data for relational event analyses. Each dataset consists of an edgelist and optional actor attributes. Individual datasets are redistributed under their original licenses as documented in inst/DATA_LICENSES.
 }
 \author{
-\strong{Maintainer}: Marlyne Meijerink-Bosman \email{m.l.meijerink@tilburguniversity.edu}
+\strong{Maintainer}: Joris Mulder \email{j.mulder3@tilburguniversity.edu}
 
 Authors:
 \itemize{
   \item Diana Karimova \email{d.karimova@tilburguniversity.edu}
+  \item Marlyne Meijerink-Bosman \email{m.l.meijerink@tilburguniversity.edu}
   \item Giuseppe Arena \email{g.arena@tilburguniversity.edu}
   \item Rumana Lakdawala \email{r.j.lakdawala@tilburguniversity.edu}
   \item Mahdi Shafiee Kamalabad \email{m.shafiee@tilburguniversity.edu}
   \item Fabio Generoso Vieira \email{f.v.generosovieira@tilburguniversity.edu}
   \item Roger Leenders \email{r.t.a.j.leenders@tilburguniversity.edu}
-}
-
-Other contributors:
-\itemize{
-  \item Joris Mulder \email{j.mulder3@tilburguniversity.edu} [contributor]
 }
 
 }
