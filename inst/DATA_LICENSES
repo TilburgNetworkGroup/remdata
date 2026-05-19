@@ -1,0 +1,156 @@
+DATA LICENSES
+=============
+
+The remdata package code is distributed under the GPL (>= 3) license.
+Individual datasets are redistributed under their original licenses as
+documented below. Users must comply with the license terms of each dataset
+they use.
+
+When using any dataset in published research, please cite both the remdata
+package and the original source(s) listed below.
+
+
+CC0 / Creative Commons Public Domain Dedication
+------------------------------------------------
+These datasets may be freely used for any purpose.
+
+  workplace2013
+    Source: http://www.sociopatterns.org/datasets/contacts-in-a-workplace/
+    Reference: Genois et al. (2015) Network Science 3(3), 326-347.
+               doi:10.1017/nws.2015.10
+
+  workplace2015
+    Source: http://www.sociopatterns.org/datasets/test/
+    Reference: Genois & Barrat (2018) EPJ Data Science 7:11.
+               doi:10.1140/epjds/s13688-018-0140-1
+
+  SFHHconference
+    Source: http://www.sociopatterns.org/datasets/sfhh-conference-data-set/
+    Reference: Cattuto et al. (2010) PLoS ONE 5(7), e11596.
+               doi:10.1371/journal.pone.0011596
+
+
+CC-BY-NC-SA / Creative Commons Attribution-NonCommercial-ShareAlike
+-------------------------------------------------------------------
+These datasets are provided for non-commercial use only. You must give
+appropriate credit, and if you redistribute or adapt the data, you must
+do so under the same license.
+See: https://creativecommons.org/licenses/by-nc-sa/3.0/
+
+  highschool2011
+    Source: http://www.sociopatterns.org/datasets/high-school-dynamic-contact-networks/
+    Reference: Fournet & Barrat (2014) PLoS ONE 9(9), e107878.
+               doi:10.1371/journal.pone.0107878
+
+  highschool2012
+    Source: http://www.sociopatterns.org/datasets/high-school-dynamic-contact-networks/
+    Reference: Fournet & Barrat (2014) PLoS ONE 9(9), e107878.
+               doi:10.1371/journal.pone.0107878
+
+  highschool2013
+    Source: http://www.sociopatterns.org/datasets/high-school-contact-and-friendship-networks/
+    Reference: Mastrandrea et al. (2015) PLoS ONE 10(9), e0136497.
+               doi:10.1371/journal.pone.0136497
+
+  primaryschool
+    Source: http://www.sociopatterns.org/datasets/primary-school-temporal-network-data/
+    Reference: Gemmetto et al. (2014) BMC Infectious Diseases 14, 695.
+               doi:10.1186/s12879-014-0695-9
+               Stehle et al. (2011) PLoS ONE 6(8), e23176.
+               doi:10.1371/journal.pone.0023176
+
+  hospitalward
+    Source: http://www.sociopatterns.org/datasets/hospital-ward-dynamic-contact-network/
+    Reference: Vanhems et al. (2013) PLoS ONE 8(9), e73970.
+               doi:10.1371/journal.pone.0073970
+
+  hypertext
+    Source: http://www.sociopatterns.org/datasets/hypertext-2009-dynamic-contact-network/
+    Reference: Isella et al. (2011) Journal of Theoretical Biology 271, 166.
+               doi:10.1016/j.jtbi.2010.11.033
+
+  infectious
+    Source: http://www.sociopatterns.org/datasets/infectious-sociopatterns-dynamic-contact-networks/
+    Reference: Isella et al. (2011) Journal of Theoretical Biology 271, 166.
+               doi:10.1016/j.jtbi.2010.11.033
+
+  baboons_obs
+    Source: http://www.sociopatterns.org/datasets/baboons-interactions/
+    Reference: Gelardi et al. (2020) Proc. R. Soc. A 476:20190737.
+               doi:10.1098/rspa.2019.0737
+
+  baboons_sens
+    Source: http://www.sociopatterns.org/datasets/baboons-interactions/
+    Reference: Gelardi et al. (2020) Proc. R. Soc. A 476:20190737.
+               doi:10.1098/rspa.2019.0737
+
+  Malawi
+    Source: http://www.sociopatterns.org/datasets/contact-patterns-in-a-village-in-rural-malawi/
+    Reference: Ozella et al. (2021) EPJ Data Science 10, 46.
+               doi:10.1140/epjds/s13688-021-00302-w
+
+  households
+    Source: http://www.sociopatterns.org/datasets/kenyan-households-contact-network/
+    Reference: Kiti et al. (2016) EPJ Data Science 5(21).
+               doi:10.1140/epjds/s13688-016-0084-2
+
+  RFIDvalidity
+    Source: https://osf.io/rrhxe/
+    Reference: Elmer et al. (see package documentation for full citation).
+
+
+CC-BY / Open Academic Data
+--------------------------
+These datasets require attribution only.
+
+  ants
+    Source: https://doi.org/10.1371/journal.pone.0020298.s008
+    License: CC-BY (PLoS ONE supplementary data).
+    Reference: Blonder & Dornhaus (2011) PLoS ONE 6(3), e20298.
+               doi:10.1371/journal.pone.0020298
+
+  ICCSS17
+    Source: https://zenodo.org/record/2531537
+    Reference: Genois, Zens, Lechner, Rammstedt & Strohmaier (2019).
+               Building connections: How scientists meet each other during
+               a conference. arXiv:1901.01182.
+
+  WS16
+    Source: https://zenodo.org/record/2531537
+    Reference: Genois, Zens, Lechner, Rammstedt & Strohmaier (2019).
+               Building connections: How scientists meet each other during
+               a conference. arXiv:1901.01182.
+
+  team4
+    Source: https://zenodo.org/record/3446071
+    Reference: Mueller, Guenther & Humbert (2018). GEDII dataset.
+
+  manufacturing
+    Source: https://doi.org/10.7910/DVN/6Z3CGX (Harvard Dataverse)
+    Reference: Nurek & Michalski (2020) Applied Sciences 10(5), 1699.
+               doi:10.3390/app10051699
+
+
+Government / Public Data
+------------------------
+  brazilian_states_trade
+    Source: http://comexstat.mdic.gov.br/
+    License: Brazilian government public data.
+
+
+KONECT / GPL
+------------
+The KONECT project code is GPL-3. Individual datasets have their own
+upstream licenses.
+
+  dnc
+    Source: http://konect.cc/networks/dnc-temporalGraph/ (via KONECT)
+    Note: Derived from the 2016 DNC email leak. No formal license from
+          the original source. Redistributed via KONECT under GPL-3.
+    Reference: Kunegis (2013) KONECT. WWW Companion, 1343-1350.
+
+  wikitalkbr
+    Source: http://konect.cc/networks/wiki_talk_br/ (via KONECT)
+    Note: Derived from Wikipedia data, which is CC-BY-SA.
+    Reference: Kunegis (2013) KONECT. WWW Companion, 1343-1350.
+

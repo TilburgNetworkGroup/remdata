@@ -1,13 +1,13 @@
 Package: remdata
 Type: Package
-Title: A collection of empirical and simulated relational event data sequences
+Title: A Collection of Empirical and Simulated Relational Event Data Sequences
 Version: 0.2.0
 Authors@R: 
     c(
         person(
             given = "Joris",
             family = "Mulder",
-            role = "ctb",
+            role = c("aut", "cre"),
             email = "j.mulder3@tilburguniversity.edu"),
         person(
             given = "Diana",
@@ -17,7 +17,7 @@ Authors@R:
         person(
             given = "Marlyne",
             family = "Meijerink-Bosman",
-            role = c("aut", "cre"),
+            role = c("aut"),
             email = "m.l.meijerink@tilburguniversity.edu"),
         person(
             given = "Giuseppe",
@@ -45,14 +45,14 @@ Authors@R:
             role = "aut",
             email = "r.t.a.j.leenders@tilburguniversity.edu")
     )
-Maintainer: Joris Mulder <j.mulder3@tilburguniversity.edu>
-Description: Empirical and simulated data for relational event analyses. Each dataset consists of an edgelist - the sequence events representing the link sent from one actor to another at a particular timepoint; and a dataframe describing the actors and their attributes if present. 
+Description: Description: Empirical and simulated data for relational event analyses. 
+    Each dataset consists of an edgelist and optional actor attributes. 
+    Individual datasets are redistributed under their original licenses 
+    as documented in inst/DATA_LICENSES.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.3
-URL: https://github.com/TilburgNetworkGroup/remdata
-BugReports: https://github.com/TilburgNetworkGroup/remdata/issues
 Depends: 
     R (>= 4.0.0)
 LazyDataCompression: xz
