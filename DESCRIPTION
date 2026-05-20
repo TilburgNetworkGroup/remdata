@@ -10,6 +10,11 @@ Authors@R:
             role = c("aut", "cre"),
             email = "j.mulder3@tilburguniversity.edu"),
         person(
+            given = "Roger",
+            family = "Leenders",
+            role = "aut",
+            email = "r.t.a.j.leenders@tilburguniversity.edu"),
+        person(
             given = "Diana",
             family = "Karimova",
             role = "aut",
@@ -32,18 +37,13 @@ Authors@R:
         person(
             given = "Mahdi",
             family = "Shafiee Kamalabad",
-            role = "aut",
+            role = "ctb",
             email = "m.shafiee@tilburguniversity.edu"),
         person(
             given = "Fabio",
             family = "Generoso Vieira",
-            role = "aut",
-            email = "f.v.generosovieira@tilburguniversity.edu"),
-        person(
-            given = "Roger",
-            family = "Leenders",
-            role = "aut",
-            email = "r.t.a.j.leenders@tilburguniversity.edu")
+            role = "ctb",
+            email = "f.v.generosovieira@tilburguniversity.edu")
     )
 Description: Description: Empirical and simulated data for relational event analyses. 
     Each dataset consists of an edgelist and optional actor attributes. 

@@ -2,10 +2,8 @@
 #'
 #' A randomly generated sequence of relational events with 20 actors and 9915 events. Each event type is associated to one of the three following sentiments: \emph{conflict}, \emph{competition} and \emph{cooperation}.
 #'
-#'
 #' @name randomREH
 #' @docType data
-#'
 #'
 #' @format \code{data(randomREH)} will load a list containing following objects:
 #'\describe{
@@ -23,31 +21,6 @@
 #'    \item{\code{omit_dyad}}{a list where each element describes an alteration of the riskset which takes place at specific time points and for certain actors and/or types.
 #'     }
 #'}
-#'
-#'
-#' @examples
-#' data(randomREH)
-#'
-#' # actors names
-#' randomREH$actors
-#'
-#' # types names
-#' randomREH$types
-#'
-#' # run the preprocessing function reh() by supplying the loaded objects.
-#' edgelist_reh <- remify(edgelist = randomREH$edgelist,
-#'                     actors = randomREH$actors,
-#'                     directed = TRUE,
-#'                     ordinal = FALSE,
-#'                     origin = randomREH$origin,
-#'                     model = "tie")
-#'
-#' # `edgelist_reh` is an object of class `remify`
-#' class(edgelist_reh)
-#'
-#' # names of objects inside `edgelist_reh`
-#' names(edgelist_reh)
-#'
 "randomREH"
 
 
@@ -74,40 +47,14 @@
 #'    \item{\code{omit_dyad}}{a list where each element describes an alteration of the riskset which takes place at specific time points and for certain actors and/or types.
 #'     }
 #'}
-#'
-#'
-#' @examples
-#' data(randomREHsmall)
-#'
-#' # actors names
-#' randomREHsmall$actors
-#'
-#' # types names
-#' randomREHsmall$types
-#'
-#'
-#' # run the preprocessing function reh() by supplying the loaded objects.
-#' small_edgelist_reh <- remify(edgelist = randomREHsmall$edgelist,
-#'                     actors = randomREHsmall$actors,
-#'                     directed = TRUE,
-#'                     ordinal = FALSE,
-#'                     origin = randomREHsmall$origin,
-#'                     model = "tie")
-#'
-#' # `small_edgelist_reh` is an object of class `reh`
-#' class(small_edgelist_reh)
-#'
-#' # names of objects inside `small_edgelist_reh`
-#' names(small_edgelist_reh)
-#'
 "randomREHsmall"
 
 
-#' Simulated relational event history 
-#' 
-#' A dataset containing a small example of a relational event history. Data is 
+#' Simulated relational event history
+#'
+#' A dataset containing a small example of a relational event history. Data is
 #' simulated.
-#' 
+#'
 #' @format A dataframe with 115 rows and 5 variables:
 #' \describe{
 #'  \item{time}{time of the event since onset of observation (e.g., in minutes)}
@@ -116,41 +63,35 @@
 #'  \item{setting}{the setting for the event}
 #'  \item{weight}{the intensity of the event (e.g., based on the duration)}
 #' }
-#' 
+#'
 #' @usage data(history)
 #' @source Simulated relational event history for actors in a social network.
-#' @seealso \code{\link{info}} for exogenous information on the actors in 
-#' the social network. 
-#' 
-#' @examples 
-#' data(history)
-#' 
+#' @seealso \code{\link{info}} for exogenous information on the actors in
+#' the social network.
+#'
 #' @keywords dataset
 "history"
 
-#' Simulated exogenous information on actors in a social network. 
-#' 
-#' A dataset containing exogenous information on the actors in the social 
+#' Simulated exogenous information on actors in a social network.
+#'
+#' A dataset containing exogenous information on the actors in the social
 #' network of a relational event history. Data is simulated.
-#' 
+#'
 #' @format A dataframe with 10 rows and 5 variables:
 #' \describe{
 #'  \item{id}{numeric id of the actor}
-#'  \item{time}{numeric value, describes when the value of the covariate 
+#'  \item{time}{numeric value, describes when the value of the covariate
 #'   changes, if it changes}
-#'  \item{age}{dichotomized age of the actor (e.g., 0 = below 25, 1 = 25 or 
+#'  \item{age}{dichotomized age of the actor (e.g., 0 = below 25, 1 = 25 or
 #'   older)}
 #'  \item{sex}{dichotomized sex of the actor (e.g., 0 = male, 1 = female)}
 #'  \item{extraversion}{standardized extraversion score of the actor}
 #'  \item{agreeableness}{standardized agreeableness score of the actor}
 #' }
-#' 
+#'
 #' @usage data(info)
 #' @source Simulated exogenous information on actors in a social network.
-#' @seealso \code{\link{history}} for the relational event history. 
-#' 
-#' @examples 
-#' data(info)
-#' 
+#' @seealso \code{\link{history}} for the relational event history.
+#'
 #' @keywords dataset
 "info"
