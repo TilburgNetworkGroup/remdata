@@ -8,7 +8,7 @@
 List with elements 'edgelist' and 'attributes'.
 }
 \source{
-\url{http://www.sociopatterns.org/datasets/high-school-dynamic-contact-networks/}
+\url{https://sociopatterns.org/datasets/high-school-dynamic-contact-networks/}
 }
 \usage{
 data(highschool2011)
@@ -62,7 +62,7 @@ female).}
 }
 
 \references{
-Fournet & Barrat (2014) PloS one 9(9) e107878 \url{https://doi.org/10.1371/journal.pone.0107878}
+Fournet & Barrat (2014) PloS one 9(9) e107878 \doi{10.1371/journal.pone.0107878}
 }
 \seealso{
 \link{highschool2012}

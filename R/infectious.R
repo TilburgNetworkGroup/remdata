@@ -29,7 +29,7 @@
 #' seconds.}
 #' }
 #' 
-#' @source \url{http://www.sociopatterns.org/datasets/infectious-sociopatterns-dynamic-contact-networks/}
+#' @source \url{https://sociopatterns.org/datasets/infectious-sociopatterns-dynamic-contact-networks/}
 #' 
-#' @references Isella et al. (2011) Journal of Theoretical Biology 271, 166 \url{https://doi.org/10.1016/j.jtbi.2010.11.033}
+#' @references Isella et al. (2011) Journal of Theoretical Biology 271, 166 \doi{10.1016/j.jtbi.2010.11.033}
 "infectious"

@@ -20,7 +20,7 @@
 #' \item \strong{attributes}: a List of one object 'reportsto', that is a \code{data.frame} of two columns describing the  which actor ('ID') reports to whom ('ReportsToID'). Actor ID = 86 is CEO (the only loop in this \code{data.frame}).
 #'}
 #'
-#' @source \url{https://doi.org/10.7910/DVN/6Z3CGX}
+#' @source \doi{10.7910/DVN/6Z3CGX}
 #'
-#' @references Nurek, Mateusz, and Radosław Michalski. "Combining Machine Learning and Social Network Analysis to Reveal the Organizational Structures." Applied Sciences 10, no. 5 (2020): 1699. doi: \url{https://dx.doi.org/10.3390/app10051699}
+#' @references Nurek, Mateusz, and Radosław Michalski. "Combining Machine Learning and Social Network Analysis to Reveal the Organizational Structures." Applied Sciences 10, no. 5 (2020): 1699. \doi{10.3390/app10051699}
 "manufacturing"

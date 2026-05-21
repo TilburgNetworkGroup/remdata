@@ -8,7 +8,7 @@
 List with elements 'edgelist' and 'attributes'.
 }
 \source{
-\url{http://www.sociopatterns.org/datasets/test/}
+\url{https://sociopatterns.org/datasets/test/}
 }
 \usage{
 data(workplace2015)
@@ -58,7 +58,7 @@ all entries.}
 }
 
 \references{
-Genois & Barrat (2018) EPJ Data Science 7:11 \url{https://doi.org/10.1140/epjds/s13688-018-0140-1}
+Genois & Barrat (2018) EPJ Data Science 7:11 \doi{10.1140/epjds/s13688-018-0140-1}
 }
 \seealso{
 \link{workplace2013}

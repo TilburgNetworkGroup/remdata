@@ -29,8 +29,8 @@
 #'
 #' @seealso \link{baboons_sens}
 #'
-#' @source \url{http://www.sociopatterns.org/datasets/baboons-interactions/}
+#' @source \url{https://sociopatterns.org/datasets/baboons-interactions/}
 #'
 #' @references Geladi et al. (2020) Proc. R. Soc. A. 476:20190737
-#' \url{https://doi.org/10.1098/rspa.2019.0737}
+#' \doi{10.1098/rspa.2019.0737}
 "baboons_obs"

@@ -30,7 +30,7 @@ This data is a list that includes
 }
 }
 \source{
-\url{ http://comexstat.mdic.gov.br/ }
+\url{https://comexstat.mdic.gov.br/ }
 }
 \usage{
 brazilian_states_trade

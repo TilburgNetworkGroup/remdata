@@ -47,7 +47,7 @@
 #' 
 #' @seealso \link{workplace2013}
 #' 
-#' @source \url{http://www.sociopatterns.org/datasets/test/}
+#' @source \url{https://sociopatterns.org/datasets/test/}
 #' 
-#' @references Genois & Barrat (2018) EPJ Data Science 7:11 \url{https://doi.org/10.1140/epjds/s13688-018-0140-1}
+#' @references Genois & Barrat (2018) EPJ Data Science 7:11 \doi{10.1140/epjds/s13688-018-0140-1}
 "workplace2015"

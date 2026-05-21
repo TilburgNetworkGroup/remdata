@@ -57,7 +57,7 @@
 #'  'F' = female).}
 #' }
 #' 
-#' @source \url{http://www.sociopatterns.org/datasets/kenyan-households-contact-network/}
+#' @source \url{https://sociopatterns.org/datasets/kenyan-households-contact-network/}
 #' 
-#' @references Kiti et al. (2016) EPJ Data Science 5(21) \url{https://doi.org/10.1140/epjds/s13688-016-0084-2}
+#' @references Kiti et al. (2016) EPJ Data Science 5(21) \doi{10.1140/epjds/s13688-016-0084-2}
 "households"

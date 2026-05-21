@@ -49,7 +49,7 @@
 #' doctor; 'ADM' = administrative staff).}
 #' }
 #' 
-#' @source \url{http://www.sociopatterns.org/datasets/hospital-ward-dynamic-contact-network/}
+#' @source \url{https://sociopatterns.org/datasets/hospital-ward-dynamic-contact-network/}
 #' 
-#' @references Vanhems et al. (2013) PloS one 8(9) e73970 \url{https://doi.org/10.1371/journal.pone.0073970}
+#' @references Vanhems et al. (2013) PloS one 8(9) e73970 \doi{10.1371/journal.pone.0073970}
 "hospitalward"

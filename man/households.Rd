@@ -9,7 +9,7 @@ Named list of five elements, each element corresponds to a household
 and contains a list with the elements 'edgelist' and 'attributes':
 }
 \source{
-\url{http://www.sociopatterns.org/datasets/kenyan-households-contact-network/}
+\url{https://sociopatterns.org/datasets/kenyan-households-contact-network/}
 }
 \usage{
 data(households)
@@ -70,6 +70,6 @@ all entries.}
 }
 
 \references{
-Kiti et al. (2016) EPJ Data Science 5(21) \url{https://doi.org/10.1140/epjds/s13688-016-0084-2}
+Kiti et al. (2016) EPJ Data Science 5(21) \doi{10.1140/epjds/s13688-016-0084-2}
 }
 \keyword{datasets}

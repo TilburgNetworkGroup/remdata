@@ -23,6 +23,6 @@
 #'
 #'
 #' }
-#' @source \url{ http://comexstat.mdic.gov.br/ }
+#' @source \url{https://comexstat.mdic.gov.br/ }
 "brazilian_states_trade"
 

@@ -64,9 +64,9 @@
 #'  \item{maxy}{Coordinates in pixels of interaction bounding box.}
 #' }
 #'
-#' @source \url{https://doi.org/10.1371/journal.pone.0020298.s008}
+#' @source \doi{10.1371/journal.pone.0020298.s008}
 #'
 #' @references Blonder B, Dornhaus A (2011) Time-Ordered Networks Reveal
 #' Limitations to Information Flow in Ant Colonies. PLOS ONE 6(5): e20298.
-#' \url{https://doi.org/10.1371/journal.pone.0020298}
+#' \doi{10.1371/journal.pone.0020298}
 "ants"

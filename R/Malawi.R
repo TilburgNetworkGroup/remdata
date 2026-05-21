@@ -26,7 +26,7 @@
 #'  \item{day}{Integer: day of the month.}
 #' }
 #'
-#' @source \url{http://www.sociopatterns.org/datasets/contact-patterns-in-a-village-in-rural-malawi/}
+#' @source \url{https://sociopatterns.org/datasets/contact-patterns-in-a-village-in-rural-malawi/}
 #'
-#' @references Ozella, L., Paolotti, D., Lichand, G. et al. Using wearable proximity sensors to characterize social contact patterns in a village of rural Malawi. EPJ Data Sci. 10, 46 (2021). \url{https://doi.org/10.1140/epjds/s13688-021-00302-w}
+#' @references Ozella, L., Paolotti, D., Lichand, G. et al. Using wearable proximity sensors to characterize social contact patterns in a village of rural Malawi. EPJ Data Sci. 10, 46 (2021). \doi{10.1140/epjds/s13688-021-00302-w}
 "Malawi"

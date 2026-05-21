@@ -15,7 +15,7 @@ dataframe with 35117 rows and 5 columns.
 }
 }
 \source{
-\url{http://www.sociopatterns.org/datasets/contact-patterns-in-a-village-in-rural-malawi/}
+\url{https://sociopatterns.org/datasets/contact-patterns-in-a-village-in-rural-malawi/}
 }
 \usage{
 data(Malawi)
@@ -35,6 +35,6 @@ undirected. Multiple events can occur at the same time point and the
 individuals can be in contactwith multiple other individuals at the same time.
 }
 \references{
-Ozella, L., Paolotti, D., Lichand, G. et al. Using wearable proximity sensors to characterize social contact patterns in a village of rural Malawi. EPJ Data Sci. 10, 46 (2021). \url{https://doi.org/10.1140/epjds/s13688-021-00302-w}
+Ozella, L., Paolotti, D., Lichand, G. et al. Using wearable proximity sensors to characterize social contact patterns in a village of rural Malawi. EPJ Data Sci. 10, 46 (2021). \doi{10.1140/epjds/s13688-021-00302-w}
 }
 \keyword{datasets}

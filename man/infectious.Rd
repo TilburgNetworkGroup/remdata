@@ -18,7 +18,7 @@ seconds.}
 }
 }
 \source{
-\url{http://www.sociopatterns.org/datasets/infectious-sociopatterns-dynamic-contact-networks/}
+\url{https://sociopatterns.org/datasets/infectious-sociopatterns-dynamic-contact-networks/}
 }
 \usage{
 data(infectious)
@@ -38,6 +38,6 @@ Multiple events can occur at the same time point and the individuals can be
 in contact with multiple other individuals at the same time.
 }
 \references{
-Isella et al. (2011) Journal of Theoretical Biology 271, 166 \url{https://doi.org/10.1016/j.jtbi.2010.11.033}
+Isella et al. (2011) Journal of Theoretical Biology 271, 166 \doi{10.1016/j.jtbi.2010.11.033}
 }
 \keyword{datasets}

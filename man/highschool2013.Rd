@@ -9,7 +9,7 @@ List with elements 'edgelist', 'attributes', 'contacts',
 'friendship' and 'facebook'.
 }
 \source{
-\url{http://www.sociopatterns.org/datasets/high-school-contact-and-friendship-networks/}
+\url{https://sociopatterns.org/datasets/high-school-contact-and-friendship-networks/}
 }
 \usage{
 data(highschool2013)
@@ -90,7 +90,7 @@ are not). Row names and column names correspond to the respective actors.
 }
 
 \references{
-Mastrandrea et al. (2015) PloS one 10(9) e0136497 \url{10.1371/journal.pone.0136497}
+Mastrandrea et al. (2015) PloS one 10(9) e0136497 \doi{10.1371/journal.pone.0136497}
 }
 \seealso{
 \link{highschool2011}, \link{highschool2012}

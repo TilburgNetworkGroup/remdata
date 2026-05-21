@@ -16,7 +16,7 @@ seconds.}
 }
 }
 \source{
-\url{http://www.sociopatterns.org/datasets/baboons-interactions/}
+\url{https://sociopatterns.org/datasets/baboons-interactions/}
 }
 \usage{
 data(baboons_sens)
@@ -36,7 +36,7 @@ same time point and the individuals can be in contact with multiple others
 at the same time.
 }
 \references{
-Geladi et al. (2020) Proc. R. Soc. A. 476:20190737 \url{https://doi.org/10.1098/rspa.2019.0737},
+Geladi et al. (2020) Proc. R. Soc. A. 476:20190737 \doi{10.1098/rspa.2019.0737},
 }
 \seealso{
 \link{baboons_obs}

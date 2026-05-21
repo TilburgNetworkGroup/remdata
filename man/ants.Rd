@@ -11,7 +11,7 @@ a list with the elements 'edgelist' and 'attributes'. The 9th element, named
 'colonies', contains attribute information about the colonies.
 }
 \source{
-\url{https://doi.org/10.1371/journal.pone.0020298.s008}
+\doi{10.1371/journal.pone.0020298.s008}
 }
 \usage{
 data(ants)
@@ -82,6 +82,6 @@ Dataframe with information about the 4 colonies.
 \references{
 Blonder B, Dornhaus A (2011) Time-Ordered Networks Reveal
 Limitations to Information Flow in Ant Colonies. PLOS ONE 6(5): e20298.
-\url{https://doi.org/10.1371/journal.pone.0020298}
+\doi{10.1371/journal.pone.0020298}
 }
 \keyword{datasets}

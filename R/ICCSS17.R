@@ -61,9 +61,9 @@
 #' or No).}
 #' }
 #'
-#' @source \url{https://zenodo.org/record/2531537#.YPEwf-gzaUl}
-#'
-#' @references Génois, Zens, Lechner, Rammstedt & Strohmaier (2019). Building
-#' connections: How scientists meet each other during a conference.
-#' \url{https://arxiv.org/pdf/1901.01182.pdf}
+#' @source \url{https://psycharchives.org/en/item/26710d25-c387-4506-b5f5-60d1bd3009a5}
+#' @references Genois, M., Zens, M., Oliveira, M., Lechner, C. M., Schaible, J.,
+#'   & Strohmaier, M. (2023). Combining sensors and surveys to study social
+#'   interactions: A case of four science conferences. \emph{Personality Science},
+#'   4, Article e9957. \doi{10.5964/ps.9957}
 "ICCSS17"

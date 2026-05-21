@@ -18,7 +18,7 @@ seconds.}
 }
 }
 \source{
-\url{http://www.sociopatterns.org/datasets/hypertext-2009-dynamic-contact-network/}
+\url{https://sociopatterns.org/datasets/hypertext-2009-dynamic-contact-network/}
 }
 \usage{
 data(hypertext)
@@ -41,6 +41,6 @@ and the individuals can be in contact with multiple other individuals at the
 same time.
 }
 \references{
-Isella et al. (2011) Journal of Theoretical Biology 271, 166 \url{https://doi.org/10.1016/j.jtbi.2010.11.033}
+Isella et al. (2011) Journal of Theoretical Biology 271, 166 \doi{10.1016/j.jtbi.2010.11.033}
 }
 \keyword{datasets}

@@ -49,7 +49,7 @@
 #' female). Note that for 15 individuals, the gender is unknown.}
 #' }
 #' 
-#' @source \url{http://www.sociopatterns.org/datasets/primary-school-temporal-network-data/}
+#' @source \url{https://sociopatterns.org/datasets/primary-school-temporal-network-data/}
 #' 
-#' @references Gemmetto et al. (2014) BMC Infectious Diseases 14, 695 \url{https://doi.org/10.1186/s12879-014-0695-9}, Stehle et al. (2011) PloS one 6(8) e23176 \url{https://doi.org/10.1371/journal.pone.0023176}
+#' @references Gemmetto et al. (2014) BMC Infectious Diseases 14, 695 \doi{10.1186/s12879-014-0695-9}, Stehle et al. (2011) PloS one 6(8) e23176 \doi{10.1371/journal.pone.0023176}
 "primaryschool"

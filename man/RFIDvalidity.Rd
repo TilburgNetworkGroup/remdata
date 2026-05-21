@@ -52,6 +52,6 @@ seconds.}
 Timon Elmer, Krishna Chaitanya, Prateek Purwar, Cristoph
 Stadtfeld (2019) The validity of RFID badges measuring face-to-face
 interactions. Behavior Research Methods 51:2120-2138.
-\url{https://doi.org/10.3758/s13428-018-1180-y}
+\doi{10.3758/s13428-018-1180-y}
 }
 \keyword{datasets}

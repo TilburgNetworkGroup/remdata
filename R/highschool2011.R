@@ -51,7 +51,7 @@
 #' 
 #' @seealso \link{highschool2012}
 #' 
-#' @source \url{http://www.sociopatterns.org/datasets/high-school-dynamic-contact-networks/}
+#' @source \url{https://sociopatterns.org/datasets/high-school-dynamic-contact-networks/}
 #' 
-#' @references Fournet & Barrat (2014) PloS one 9(9) e107878 \url{https://doi.org/10.1371/journal.pone.0107878}
+#' @references Fournet & Barrat (2014) PloS one 9(9) e107878 \doi{10.1371/journal.pone.0107878}
 "highschool2011"

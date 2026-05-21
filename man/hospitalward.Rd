@@ -8,7 +8,7 @@
 List with elements 'edgelist' and 'attributes'.
 }
 \source{
-\url{http://www.sociopatterns.org/datasets/hospital-ward-dynamic-contact-network/}
+\url{https://sociopatterns.org/datasets/hospital-ward-dynamic-contact-network/}
 }
 \usage{
 data(hospitalward)
@@ -62,6 +62,6 @@ doctor; 'ADM' = administrative staff).}
 }
 
 \references{
-Vanhems et al. (2013) PloS one 8(9) e73970 \url{https://doi.org/10.1371/journal.pone.0073970}
+Vanhems et al. (2013) PloS one 8(9) e73970 \doi{10.1371/journal.pone.0073970}
 }
 \keyword{datasets}

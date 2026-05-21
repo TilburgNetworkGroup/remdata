@@ -50,7 +50,7 @@
 #' 
 #' @seealso \link{workplace2015}
 #' 
-#' @source \url{http://www.sociopatterns.org/datasets/contacts-in-a-workplace/}
+#' @source \url{https://sociopatterns.org/datasets/contacts-in-a-workplace/}
 #' 
-#' @references Genois et al. (2015) Network Science 3(3) pp. 326-347 \url{https://doi.org/10.1017/nws.2015.10}, Genois & Barrat (2018) EPJ Data Science 7:11 \url{https://doi.org/10.1140/epjds/s13688-018-0140-1}
+#' @references Genois et al. (2015) Network Science 3(3) pp. 326-347 \doi{10.1017/nws.2015.10}, Genois & Barrat (2018) EPJ Data Science 7:11 \doi{10.1140/epjds/s13688-018-0140-1}
 "workplace2013"

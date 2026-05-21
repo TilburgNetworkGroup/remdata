@@ -73,7 +73,7 @@
 #'
 #' @seealso \link{highschool2011}, \link{highschool2012}
 #'
-#' @source \url{http://www.sociopatterns.org/datasets/high-school-contact-and-friendship-networks/}
+#' @source \url{https://sociopatterns.org/datasets/high-school-contact-and-friendship-networks/}
 #'
-#' @references Mastrandrea et al. (2015) PloS one 10(9) e0136497 \url{10.1371/journal.pone.0136497}
+#' @references Mastrandrea et al. (2015) PloS one 10(9) e0136497 \doi{10.1371/journal.pone.0136497}
 "highschool2013"

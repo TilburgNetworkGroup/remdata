@@ -20,7 +20,7 @@
 }
 }
 \source{
-\url{https://doi.org/10.7910/DVN/6Z3CGX}
+\doi{10.7910/DVN/6Z3CGX}
 }
 \usage{
 data(manufacturing)
@@ -29,6 +29,6 @@ data(manufacturing)
 Internal email communication network between employees of a mid-sized manufacturing company in the period from 2010-01-01 to 2010-09-30. Any directed edge in the sequence represents an email sent by one person (the sender) to another one (the recipient). Considering that an email can have any number of recipients, for any email with multiple receivers the single event is splitted into as many dyadic events as the number of recipients in the email. Additional information about who in the company reports to whom is also available.
 }
 \references{
-Nurek, Mateusz, and Radosław Michalski. "Combining Machine Learning and Social Network Analysis to Reveal the Organizational Structures." Applied Sciences 10, no. 5 (2020): 1699. doi: \url{https://dx.doi.org/10.3390/app10051699}
+Nurek, Mateusz, and Radosław Michalski. "Combining Machine Learning and Social Network Analysis to Reveal the Organizational Structures." Applied Sciences 10, no. 5 (2020): 1699. \doi{10.3390/app10051699}
 }
 \keyword{datasets}

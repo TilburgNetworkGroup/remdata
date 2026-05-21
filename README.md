@@ -1,7 +1,7 @@
 # remdata
 
 A collection of empirical relational event history datasets for use with
-the [remverse](https://github.com/TilburgNetworkGroup/remverse) ecosystem.
+the 'remverse' ecosystem.
 
 ## Installation
 

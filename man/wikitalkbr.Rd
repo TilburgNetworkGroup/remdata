@@ -19,7 +19,7 @@
 }
 }
 \source{
-\url{http://konect.cc/networks/wiki_talk_br/}
+\url{https://konect.cc/networks/wiki_talk_br/}
 }
 \usage{
 data(wikitalkbr)

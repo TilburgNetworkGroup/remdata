@@ -19,7 +19,7 @@
 #' \item \strong{actors}: a vector of actors ID's.
 #'}
 #'
-#' @source \url{http://konect.cc/networks/wiki_talk_br/}
+#' @source \url{https://konect.cc/networks/wiki_talk_br/}
 #'
 #' @references Jérôme Kunegis. KONECT – The Koblenz Network Collection. In Proc. Int. Conf. on World Wide Web Companion, pages 1343–1350, 2013. \url{https://dl.acm.org/doi/10.1145/2487788.2488173}
 "wikitalkbr"

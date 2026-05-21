@@ -45,7 +45,7 @@ Authors@R:
             role = "ctb",
             email = "f.v.generosovieira@tilburguniversity.edu")
     )
-Description: Description: Empirical and simulated data for relational event analyses. 
+Description: Empirical and simulated data for relational event analyses. 
     Each dataset consists of a relational event sequence and optional actor attributes. 
     Individual datasets are redistributed under their original licenses 
     as documented in inst/DATA_LICENSES.
