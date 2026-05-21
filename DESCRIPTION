@@ -46,7 +46,7 @@ Authors@R:
             email = "f.v.generosovieira@tilburguniversity.edu")
     )
 Description: Description: Empirical and simulated data for relational event analyses. 
-    Each dataset consists of an edgelist and optional actor attributes. 
+    Each dataset consists of a relational event sequence and optional actor attributes. 
     Individual datasets are redistributed under their original licenses 
     as documented in inst/DATA_LICENSES.
 License: MIT + file LICENSE
