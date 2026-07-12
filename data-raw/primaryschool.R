@@ -76,7 +76,7 @@ edgelist <- records[records$onset==TRUE,
 rownames(edgelist) <- NULL
 
 attributes <- data.frame(
-  id = actors$id, time = 0, class = actors$class, gender = actors$gender
+  name = actors$id, time = 0, class = actors$class, gender = actors$gender
 )
 primaryschool <- list(edgelist = edgelist, attributes = attributes)
 

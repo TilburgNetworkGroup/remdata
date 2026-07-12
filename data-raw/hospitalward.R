@@ -74,7 +74,7 @@ edgelist <- records[records$onset==TRUE,
 rownames(edgelist) <- NULL
 
 attributes <- data.frame(
-  id = actors$id, time = 0, status = actors$status
+  name = actors$id, time = 0, status = actors$status
 )
 hospitalward <- list(edgelist = edgelist, attributes = attributes)
 

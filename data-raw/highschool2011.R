@@ -75,7 +75,7 @@ rownames(edgelist) <- NULL
 edgelist <- edgelist[edgelist$actor1 != edgelist$actor2,] # Remove self-edges
 
 attributes <- data.frame(
-  id = actors$id,
+  name = actors$id,
   time = 0,
   class = actors$class,
   gender = actors$gender

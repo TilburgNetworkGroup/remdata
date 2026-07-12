@@ -21,7 +21,7 @@ records[,c("actor1", "actor2")] <- t(apply(records, 1, function(x) {
 # Collect actor information
 actors <- gedii_sociodemo
 actors <- actors[actors$Team == 4,]
-covariates <- data.frame(id = actors$RID, time = 0, team = actors$Team,
+covariates <- data.frame(name = actors$RID, time = 0, team = actors$Team,
   role = actors$Role, gender = actors$Gender, hqual = actors$HQual,
   tenure = actors$Tenure, age = actors$Age)
 rownames(covariates) <- NULL

@@ -73,7 +73,7 @@ edgelist <- records[records$onset==TRUE,
 rownames(edgelist) <- NULL
 
 attributes <- data.frame(
-  id = actors$id,
+  name = actors$id,
   time = 0,
   class = actors$class,
   gender = actors$gender

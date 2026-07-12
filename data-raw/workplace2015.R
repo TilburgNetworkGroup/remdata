@@ -73,7 +73,7 @@ edgelist <- records[records$onset==TRUE,
 rownames(edgelist) <- NULL
 
 attributes <- data.frame(
-  id = actors$id, time = 0, department = actors$department)
+  name = actors$id, time = 0, department = actors$department)
 workplace2015 <- list(edgelist = edgelist, attributes = attributes)
 
 # Save data

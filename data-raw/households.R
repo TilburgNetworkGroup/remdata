@@ -42,6 +42,7 @@ actors <- lapply(1:length(actors), function(h) {
   dat <- cbind(actors[[h]], dat)
   dat$age <- as.integer(dat$age)
   dat <- dat[,c("id", "time", "age", "sex")]
+  colnames(dat)[1] <- "name"
   dat
 })
 names(actors) <- households
