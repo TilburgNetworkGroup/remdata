@@ -49,7 +49,7 @@ seconds.}
 Dataframe with 180 rows and 4 columns describing the gender and class of the 
 students. 
 \describe{
- \item{id}{Integer value with the ID of the student.}
+ \item{name}{Integer value with the ID of the student.}
  \item{time}{Change time of the attributes. Since the attributes are 
 constant over the course of the study period, this value is equal to 0 for 
 all entries.}

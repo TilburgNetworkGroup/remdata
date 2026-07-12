@@ -60,7 +60,7 @@ have signal strength "NA".}
 
 Dataframe describing a number of attributes of the 9 team members.
 \describe{
- \item{id}{Integer value with the ID of the individual.}
+ \item{name}{Integer value with the ID of the individual.}
  \item{time}{Change time of the attributes. Since the attributes are
 constant over the course of the study period, this value is equal to 0 for
 all entries.}
