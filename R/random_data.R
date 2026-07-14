@@ -96,12 +96,20 @@
 #' @keywords dataset
 "info"
 
+# Define effects for the start and end models of DuREM
+start_effects <- ~ 1 + remstats::inertia(scaling = "std") + remstats::reciprocity(scaling = "std") +
+  remstats::send("age", attr_actors = info2, scaling = "std") + remstats::outdegreeSender(scaling = "std") +
+  remstats::isp(scaling = "std")
+end_effects <- ~ 1 + remstats::totaldegreeDyad(scaling = "std") + remstats::difference("age", attr_actors = info2, scaling = "std")
+
+
 #' Generated Relational Event History with Duration, Type, and Weight
 #'
 #' A randomly generated sequence of relational events `randomREH2`, among 5
-#' actors and 1000 events with duration. For starting an event, inertia and
-#' reciprocity were used, and for (undirected) ending an event totaldegreeDyad
-#' was used.
+#' actors and 1000 events with duration. For starting an event, inertia,
+#' reciprocity, outdegreeSender, isp, and age of sender were
+#' used; for (undirected) ending an event totaldegreeDyad and age difference
+#' was used. Actor covariates in \code{\link{info2}}.
 #'
 #' @name randomREH2
 #' @docType data
