@@ -95,3 +95,56 @@
 #'
 #' @keywords dataset
 "info"
+
+#' Generated Relational Event History with Duration, Type, and Weight
+#'
+#' A randomly generated sequence of relational events `randomREH2`, among 5
+#' actors and 1000 events with duration. For starting an event, inertia and
+#' reciprocity were used, and for (undirected) ending an event totaldegreeDyad
+#' was used.
+#'
+#' @name randomREH2
+#' @docType data
+#'
+#' @format \code{data(randomREH2)} will load a list containing following objects:
+#'\describe{
+#'    \item{\code{edgelist}}{
+#'    a \code{data.frame} that contains the random sequence of events. Columns of the edgelist are:
+#'            \describe{
+#'                \item{\code{time}}{the timestamp indicating the time at which each event occurred;}
+#'                \item{\code{actor1}}{the name of the actor that generated the relational event;}
+#'                \item{\code{actor2}}{the name of the actor that received the relational event;}
+#'                \item{\code{end}}{the time of ending the relational event;}
+#'                \item{setting}{the setting (type) of the event, either \code{social} or \code{work};}
+#'                \item{duration}{the duration of each event, which can also function as event weight for instance.}
+#'            }
+#'     }
+#'}
+#' @usage data(randomREH2)
+#' @seealso \code{\link{info2}} for actor covariates.
+"randomREH2"
+
+
+#' Exogenous information of 5 actors
+#'
+#' A dataset containing the (hypothetical) age of the actors in a social
+#' network of a relational event history \code{\link{randomREH2}}.
+#'
+#' @name info2
+#' @docType data
+#'
+#' @format A dataframe with 7 rows and 5 variables:
+#' \describe{
+#'  \item{name}{numeric id of the actor}
+#'  \item{time}{numeric value, describes when the value of the covariate
+#'   changes, if it changes}
+#'  \item{age}{age of the actor}
+#'  \item{sex}{dichotomized sex of the actor (e.g., 0 = male, 1 = female)}
+#' }
+#'
+#' @usage data(info2)
+#' @seealso \code{\link{randomREH2}} for the relational event history.
+#'
+#' @keywords dataset
+"info2"
+
