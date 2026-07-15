@@ -96,37 +96,26 @@
 #' @keywords dataset
 "info"
 
-# Define effects for the start and end models of DuREM
-start_effects <- ~ 1 + remstats::inertia(scaling = "std") + remstats::reciprocity(scaling = "std") +
-  remstats::send("age", attr_actors = info2, scaling = "std") + remstats::outdegreeSender(scaling = "std") +
-  remstats::isp(scaling = "std")
-end_effects <- ~ 1 + remstats::totaldegreeDyad(scaling = "std") + remstats::difference("age", attr_actors = info2, scaling = "std")
-
-
 #' Generated Relational Event History with Duration, Type, and Weight
 #'
-#' A randomly generated sequence of relational events `randomREH2`, among 5
-#' actors and 1000 events with duration. For starting an event, inertia,
-#' reciprocity, outdegreeSender, isp, and age of sender were
-#' used; for (undirected) ending an event totaldegreeDyad and age difference
-#' was used. Actor covariates in \code{\link{info2}}.
+#' A randomly generated sequence of 999 duration relational events among 5
+#' actors. Starting an event depended on inertia, reciprocity, sender
+#' out-degree, incoming shared partners, and sender age; (undirected) ending an
+#' event depended on the dyad's total active degree and the age difference of
+#' the two actors. Actor covariates are in \code{\link{info2}}.
 #'
 #' @name randomREH2
 #' @docType data
 #'
-#' @format \code{data(randomREH2)} will load a list containing following objects:
+#' @format \code{data(randomREH2)} loads a \code{data.frame} with 999 rows and
+#'   6 columns:
 #'\describe{
-#'    \item{\code{edgelist}}{
-#'    a \code{data.frame} that contains the random sequence of events. Columns of the edgelist are:
-#'            \describe{
-#'                \item{\code{time}}{the timestamp indicating the time at which each event occurred;}
-#'                \item{\code{actor1}}{the name of the actor that generated the relational event;}
-#'                \item{\code{actor2}}{the name of the actor that received the relational event;}
-#'                \item{\code{end}}{the time of ending the relational event;}
-#'                \item{setting}{the setting (type) of the event, either \code{social} or \code{work};}
-#'                \item{duration}{the duration of each event, which can also function as event weight for instance.}
-#'            }
-#'     }
+#'    \item{\code{time}}{the timestamp indicating when each event started;}
+#'    \item{\code{actor1}}{the actor that generated (initiated) the event;}
+#'    \item{\code{actor2}}{the actor that received the event;}
+#'    \item{\code{end}}{the time at which the event ended (\code{NA} = right-censored);}
+#'    \item{\code{setting}}{the setting (type) of the event, either \code{social} or \code{work};}
+#'    \item{\code{duration}}{the duration of each event (\code{end - time}), which can also serve as an event weight.}
 #'}
 #' @usage data(randomREH2)
 #' @seealso \code{\link{info2}} for actor covariates.
@@ -141,7 +130,7 @@ end_effects <- ~ 1 + remstats::totaldegreeDyad(scaling = "std") + remstats::diff
 #' @name info2
 #' @docType data
 #'
-#' @format A dataframe with 7 rows and 5 variables:
+#' @format A dataframe with 7 rows and 4 variables:
 #' \describe{
 #'  \item{name}{numeric id of the actor}
 #'  \item{time}{numeric value, describes when the value of the covariate

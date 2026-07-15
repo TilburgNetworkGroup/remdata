@@ -5,7 +5,7 @@
 \alias{info2}
 \title{Exogenous information of 5 actors}
 \format{
-A dataframe with 10 rows and 5 variables:
+A dataframe with 7 rows and 4 variables:
 \describe{
  \item{name}{numeric id of the actor}
  \item{time}{numeric value, describes when the value of the covariate
