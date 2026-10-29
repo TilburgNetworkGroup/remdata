@@ -24,6 +24,7 @@ Other contributors:
 \itemize{
   \item Mahdi Shafiee Kamalabad \email{m.shafiee@tilburguniversity.edu} [contributor]
   \item Fabio Generoso Vieira \email{f.v.generosovieira@tilburguniversity.edu} [contributor]
+  \item Jonathan Koop \email{j.koop@tilburguniversity.edu} [contributor]
 }
 
 }
